@@ -170,9 +170,6 @@
 </tbody></table>
 
 
-
-&emsp;&emsp;[ArrayList 方法使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_Methods_Example.java)  
-
 ## LinkedList  
 
 &emsp;&emsp;[JDK1.8 LinkedList 源码](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/src/LinkedList.java)  
