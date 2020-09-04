@@ -23,8 +23,24 @@
 &emsp;&emsp;优点：查询效率高。  
 &emsp;&emsp;缺点：增删改效率低。  
 
-&emsp;&emsp;[ArrayList 方法使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_API_Example.java)  
+&emsp;&emsp;[ArrayList 方法使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_Methods_Example.java)  
 
 ## LinkedList  
 
-&emsp;&emsp;[JDK1.8 LinkedList 源码](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/src/LinkedList.java)
+&emsp;&emsp;[JDK1.8 LinkedList 源码](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/src/LinkedList.java)  
+
+&emsp;&emsp;LinkedList 是一种线性数据结构，它不需要开辟一块连续的内存空间来存储，每个元素都是具有数据部分和地址部分的单独对象。元素使用指针和地址链接,每个元素称为一个节点。  
+```
+    private static class Node<E> {
+        E item;
+        Node<E> next;
+        Node<E> prev;
+
+        Node(Node<E> prev, E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
+            this.prev = prev;
+        }
+    }
+```
+&emsp;&emsp;可以看到，每个节点除了值，还有前后指针，说明 LinkedList 是一个双向链表结构。
