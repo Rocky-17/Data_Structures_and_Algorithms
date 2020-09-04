@@ -23,4 +23,13 @@
 &emsp;&emsp;优点：查询效率高。  
 &emsp;&emsp;缺点：增删改效率低。  
 
-&emsp;&emsp;[ArrayList API 使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_API_Example.java)
+&emsp;&emsp;[ArrayList 方法使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_API_Example.java)  
+
+|方法|功能|
+|-|-|
+|add(int index, Object element)|在ArrayList中的特定位置索引处插入特定元素。|
+|add(Object o)|将特定元素追加到ArrayList的末尾。|
+|addAll(Collection C)|将集合C中的所有元素附加到ArrayList的末尾，其顺序为值由集合C的​​迭代器返回|
+|addAll(int index, Collection C)|将集合C中从指定位置开始的所有元素插入ArrayList中|
+|clear()|移除ArrayList的所有元素|
+|clone()|返回返回ArrayList的浅拷贝|
