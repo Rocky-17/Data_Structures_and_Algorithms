@@ -167,15 +167,6 @@
 <td class="x29"></td>
 <td class="x30"></td>
  </tr>
-<!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="130" style="width:97.5pt"></td>
-  <td width="334" style="width:250.5pt"></td>
-  <td width="393" style="width:294.75pt"></td>
-  <td width="380" style="width:285pt"></td>
-  <td width="708" style="width:531pt"></td>
- </tr>
- <!--[endif]-->
 </tbody></table>
 
 
