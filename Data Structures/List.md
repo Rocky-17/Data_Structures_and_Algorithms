@@ -42,7 +42,7 @@
 <td class="x22">add(E e)</td>
 <td class="x22">在尾部插入</td>
 <td class="x22"></td>
-<td class="x27">由于removeRange(int,int) 在 java.util.ArrayList 中是 protected 访问控制，并未暴露给用户，可以使用subList(start, end).clear()来达成相同效果</td>
+<td class="x27"></td>
  </tr>
  <tr height="19" style="mso-height-source:userset;height:14.25pt" id="r2">
 <td class="x22">add(int index, E element)&nbsp;</td>
@@ -91,7 +91,7 @@
 <td class="x22">removeRange(int fromIndex, int toIndex)</td>
 <td class="x22">删除 ArrayList 指定范围内的元素</td>
 <td class="x22"></td>
-<td class="x27"></td>
+<td class="x27">由于removeRange(int,int) 在 java.util.ArrayList 中是 protected 访问控制，并未暴露给用户，可以使用subList(start, end).clear()来达成相同效果</td>
  </tr>
  <tr height="20" style="mso-height-source:userset;height:15pt" id="r10">
 <td class="x29">retainAll(Collection&lt;?&gt; c)</td>
