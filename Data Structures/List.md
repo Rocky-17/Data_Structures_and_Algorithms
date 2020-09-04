@@ -5,7 +5,7 @@
 
 ## ArrayList  
   
-&emsp;&emsp;[JDK1.8 源码地址](http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/file/tip/src/share/classes/java/util/ArrayList.java)  
+&emsp;&emsp;[JDK1.8 ArrayList 源码](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/src/ArrayList.java)  
 
 &emsp;&emsp;在 Java 中，ArrayList 主要是基于 Object[] elementData 实现的，在存储基本数据类型时只能存储其相应的包装类。  
  
@@ -25,11 +25,6 @@
 
 &emsp;&emsp;[ArrayList 方法使用实例](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/CODE/ArrayList_API_Example.java)  
 
-|方法|功能|
-|-|-|
-|add(int index, Object element)|在ArrayList中的特定位置索引处插入特定元素。|
-|add(Object o)|将特定元素追加到ArrayList的末尾。|
-|addAll(Collection C)|将集合C中的所有元素附加到ArrayList的末尾，其顺序为值由集合C的​​迭代器返回|
-|addAll(int index, Collection C)|将集合C中从指定位置开始的所有元素插入ArrayList中|
-|clear()|移除ArrayList的所有元素|
-|clone()|返回返回ArrayList的浅拷贝|
+## LinkedList  
+
+&emsp;&emsp;[JDK1.8 LinkedList 源码](https://github.com/Rocky-17/Data_Structures_and_Algorithms/blob/master/src/LinkedList.java)
